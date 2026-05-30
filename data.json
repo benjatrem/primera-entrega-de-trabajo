@@ -1,0 +1,74 @@
+{
+  "usuario": {
+    "nombre": "PARRA QUIÑONES CESAR",
+    "codigo": "60857704",
+    "universidad": "USMP",
+    "carrera": "Ingenieria de Sistemas",
+    "ciclo": 2,
+    "avatar": "images/perfil.jpg"
+  },
+  "tareas": [
+    {
+      "curso": "CALCULO I",
+      "tarea": "INTEGRALES",
+      "entrega": "27 DE MARZO"
+    },
+    {
+      "curso": "PROGRAMACION",
+      "tarea": "PROYECTO WEB",
+      "entrega": "19 DE MARZO"
+    },
+    {
+      "curso": "INTRO. ECONOMIA",
+      "tarea": "LA INFLACIÓN",
+      "entrega": "21 DE MARZO"
+    }
+  ],
+  "eventos": [
+    {
+      "titulo": "Hackathon tecnológico",
+      "fecha": "18 marzo",
+      "desc": "Evento donde estudiantes crean soluciones tecnológicas innovadoras en equipo en tiempo limitado."
+    },
+    {
+      "titulo": "Feria universitaria",
+      "fecha": "21 marzo",
+      "desc": "Espacio para conocer proyectos, servicios y oportunidades dentro de la universidad."
+    },
+    {
+      "titulo": "Taller de programación",
+      "fecha": "25 marzo",
+      "desc": "Taller enfocado en desarrollar habilidades de programación paso a paso."
+    }
+  ],
+  "comidas": [
+    {
+      "nombre": "Menú universitario",
+      "precio": "S/11",
+      "distancia": "a 1 min de la FIA DATA",
+      "estado": "ABIERTO",
+      "horario": "07:00 - 15:00"
+    },
+    {
+      "nombre": "Pollería económica",
+      "precio": "S/12",
+      "distancia": "a 4 min de la universidad",
+      "estado": "CERRADO",
+      "horario": "12:00 - 22:00"
+    },
+    {
+      "nombre": "Cafetería rápida",
+      "precio": "S/8",
+      "distancia": "a 3 min de la universidad",
+      "estado": "ABIERTO",
+      "horario": "08:00 - 18:00"
+    },
+    {
+      "nombre": "Sandwiches y jugos",
+      "precio": "S/9",
+      "distancia": "a 4 min de la universidad",
+      "estado": "ABIERTO",
+      "horario": "09:00 - 17:00"
+    }
+  ]
+}

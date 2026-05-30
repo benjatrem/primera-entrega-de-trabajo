@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>USMP Conecta</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="app">
+  <!-- LOGIN -->
+  <section id="login" class="login-wrap">
+    <div class="login-header">
+      <img src="images/login_bg.png" alt="USMP">
+      <div class="bar"></div>
+    </div>
+    <div class="login-card">
+      <div class="login-title">USMP CONECTA</div>
+      <div class="login-body">
+        <div class="field">
+          <label>CORREO:</label>
+          <input id="email" type="email" placeholder="tu@usmp.pe">
+        </div>
+        <div class="field">
+          <label>CONTRASEÑA:</label>
+          <input id="password" type="password" placeholder="••••••••">
+        </div>
+        <button class="btn" id="btnLogin">INICIAR SESIÓN</button>
+        <div class="link">¿NO TIENES CUENTA? REGISTRARSE</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- APP -->
+  <section id="main" class="hidden">
+    <div class="topbar">
+      <div class="brand">
+        <img src="images/inicio.png" alt="logo">
+        <strong>USMP</strong>
+      </div>
+      <div class="right">
+        <img id="avatarTop" class="avatar" src="" alt="avatar">
+        <button class="btn-logout" id="btnLogout">CERRAR SESION</button>
+      </div>
+    </div>
+    <div class="layout">
+      <aside class="sidebar">
+        <ul class="menu" id="menu">
+          <li data-view="inicio" class="active">🏠 Inicio</li>
+          <li data-view="tareas">📚 Mis tareas</li>
+          <li data-view="eventos">🎉 Eventos</li>
+          <li data-view="comidas">🍔 Comidas</li>
+          <li data-view="perfil">👤 Perfil</li>
+        </ul>
+      </aside>
+      <main class="content" id="content"></main>
+    </div>
+  </section>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
